@@ -13,15 +13,15 @@ To make the initial data exploration and algorithm developement more manageable,
 http://www.kaggle.com/c/acquire-valued-shoppers-challenge/forums/t/7666/getting-started-data-reduction/
 
 I encountered some problems reducing the dataset, but evenutally succeeded by switching from ipython NB to python script
- Data reduction scripts did not work with iPython notebook on local (file to large)
- Data reduction scripts did not work with iPython notebook on AWS EC2 (keep disconnecting)
- Data reduction script with python on local succeeded. Script based on: Auduno's repository:  
+-Data reduction scripts did not work with iPython notebook on local (file to large)
+-Data reduction scripts did not work with iPython notebook on AWS EC2 (keep disconnecting)
+-Data reduction script with python on local succeeded. Script based on: Auduno's repository:  
 
 DATA EXPLORATION
-WORK IN PROGRESS - Will post some any summary findings of interest here
+WORK IN PROGRESS - Will post a summary of any noteworhy findings here...
 
 FEATURE ENGINEERING
-HOLDING FOR DATA EXPLORATION - 
+HOLDING FOR DATA EXPLORATION 
 
 For reference, there is a great discussion on feature engineering my mlwave here: 
 http://mlwave.com/predicting-repeat-buyers-vowpal-wabbit/
