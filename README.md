@@ -22,8 +22,28 @@ TO expedite testing for feature development and prediction modeling, I have used
 DATA EXPLORATION / FEATURE ENGINEERING 
 Data exploration does not yeild very much on its own, adding features to increase how interesting it is
 
+FEATURES TO BE DEVELOPED:
+-Company_Purchase_True, Company_Purchase_Quantity, Company_Purchase_Amount, Company_Share_Wallet, 
+-Category_Purchase_True, Category_Purchase_Quantity, Category_Purchase_Amount, Category_Share_Wallet
+-Brand_Purchase_True, Brand_Purchase_Quantity, Brand_Purchase_Amount, Brand_Share_Wallet
+-Total_Puchase_Quantity, Total_Purchase_Amount, Average_Cost_Purchase
+-Time variables: Company / Category / Brand purchases within past 30, 60, 90, 180 days
+
+concerns about feature: 
+-Multicolinnearity (especially between time variables) could lead to over-fitting.
+-Share of wallet metric biased, because ONLY analyzing transactions for products where the company/category made an offer 
+
 PREDUCTION MODEL
 HOLDING FOR FEATURE ENGINEERING
+
+prediction models to be explored
+-Logistic Regression
+-KNN
+-Decision Tree Classification
+-... suggestions?
+
+concerns models
+-Computationally expensive... suggestions?
 
 For reference, there is a great discussion on feature engineering my mlwave here: 
 http://mlwave.com/predicting-repeat-buyers-vowpal-wabbit/
@@ -35,6 +55,6 @@ SUBMSSION
 This is a big-data learning exercise for my personal development. 
 I plan to produce a final set of results, and compare my results to the leaderboard 
 
-Submission leaderboard (scores range between 0.44-0.63):
+submission leaderboard (scores range between 0.44-0.63):
 https://www.kaggle.com/c/acquire-valued-shoppers-challenge/leaderboard
 
