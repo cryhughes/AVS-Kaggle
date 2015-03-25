@@ -2,7 +2,7 @@ AVS-Kaggle
 Acquired Valued Shopper Challenge Kaggle Competition: 
 https://www.kaggle.com/c/acquire-valued-shoppers-challenge
 
-PREDICTION PROBLEM:
+PREDICTION PROBLEM:\n
 1. Predict the probability a customer will make a purchase, if provided a marketing offer (not part of Kaggle competition)
 2. Predict the probability a customer will become a repeat purchaser, give they made an initial purchase AFTER being provided a marketing offer  
 
